@@ -1,0 +1,14 @@
+ .services-container {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/68c9706b-acd1-4472-bb1d-ef3ca933154c/2c7c702c-ed2b-4437-9786-5e9bbcb11599/IN-en-20211011-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: fill;
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+    background-color: black;
+    padding-bottom: 70px;
+ }
+
+ .services-container h1 {
+     text-align: center;
+     font-size: 50px;
+ }

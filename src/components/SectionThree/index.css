@@ -1,0 +1,163 @@
+
+.sec-three-wrapper {
+    background-color: black;
+    padding: 30px 45px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.sec-three-contents { 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    /* padding-bottom: 30px; */
+}
+
+.sec-three-left {
+    margin: 0px 20px;
+    width: 50%;
+    /* position: relative; */
+}
+
+.sec-three-left img {
+    width: 100%;
+    height:auto;
+}
+
+.sec-three-left-downdiv {
+    position:absolute;
+    left: 17%;
+    bottom: 8%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    width: 300px;
+}
+
+/* .sec-three-left-downdiv img {
+    width: 100%;
+    height: auto;
+} */
+
+.sec-three-left-downdiv .strange-img {
+    /* width: 70%; */
+    height: 50px;
+    padding: 10px;
+    width: 70px;
+}
+
+ .sec-three-left-downdiv-text h4 {
+     /* display: inline; 
+    font-size: 8px !impor;  */
+    margin: 0px;
+    text-align: center;
+    
+} 
+
+.sec-three-left-downdiv-text-hfour {
+    color: blue;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+
+/* .sec-three-download-icon {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.sec-three-right {
+    width: 50%;
+}
+
+.sec-three-right h1{
+    font-size: 35px;
+    margin: 0;
+}
+
+@media (max-width: 950px) {
+    .sec-three-contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px;
+    }
+
+    .sec-three-left {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .sec-three-right {
+        width: 100%;
+    }
+
+    .sec-three-right h1 { 
+        text-align: center;
+        font-size: 42px;
+        margin: 0px ; 
+    }
+    
+    .sec-three-right h2 {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .sec-three-left-downdiv {
+        position:absolute;
+        left: 18%;
+        bottom: 30%;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: black;
+        height: 100px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 750px) {
+    .sec-three-contents {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px;
+    }
+
+    .sec-three-left {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .sec-three-right {
+        width: 100%;
+    }
+
+    .sec-three-right h1 { 
+        text-align: center;
+        font-size: 38px;
+        margin: 0px ; 
+    }
+    
+    .sec-three-right h2 {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .sec-three-left-downdiv {
+        position:absolute;
+        left: 15%;
+        bottom: 15%;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: black;
+        height: 100px;
+        width: 380px;
+    }
+}

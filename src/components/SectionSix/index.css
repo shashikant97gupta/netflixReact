@@ -1,0 +1,106 @@
+ .sec-six-wrapper {
+    background-color: black;
+    padding: 30px 45px;
+    position: relative;
+    margin-bottom: 5px;
+ }
+
+ .sec-six-contents {
+     display:flex;
+     flex-direction:column;
+     justify-content:space-around;
+     align-items:center;
+     margin: 10px 0px 60px 0px;
+ }
+
+ .sec-six-faq h1 {
+     font-size: 45px;
+     margin: 10px 0px 20px 0px;
+ }
+
+ .sec-six-faq-ques  {
+     display: flex;
+     justify-content:space-between;
+     align-items:center;
+     width: 100%;
+     padding: 16px ;
+     background-color: rgba(161, 103, 103, 0.8);
+     margin: 10px 0px;
+ }
+
+ .sec-six-faq-ques h3{
+     margin: 0px;
+     font-weight: 300;
+ }
+
+ .sec-six-faq-ques  i {
+     text-align: center ;
+ }
+
+ .sec-six-email form input {
+     height: 9.7vh;
+     width: 65%;
+ }
+
+ .sec-six-email form button {
+     height: 11.5vh;
+     background-color: red;
+     color: white;
+
+ }
+
+ .sec-six-email form button:hover {
+     cursor: pointer;
+     background-color: rgb(211, 51, 51);
+ }
+
+ @media (max-width: 750px) {
+    .sec-six-wrapper {
+        background-color: black;
+        padding: 30px 50px 30px 20px ;
+        position: relative;
+        margin-bottom: 5px;
+     }
+
+    .sec-six-faq h1 {
+        font-size: 35px;
+        margin: 10px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .sec-six-faq-ques  {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 100%;
+        padding: 16px ;
+        background-color: rgba(161, 103, 103, 0.8);
+        margin: 10px 0px;
+    }
+
+    .sec-six-email {
+        padding: 0px 0px 0px 30px ;
+    }
+
+    .sec-six-email form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .sec-six-email form input {
+        height: 9.7vh;
+        width: 100%;
+    }
+   
+    .sec-six-email form button {
+        height: 11.5vh;
+        background-color: red;
+        color: white;
+        margin-top: 10px;
+        padding: 15px;
+   
+    }
+ }

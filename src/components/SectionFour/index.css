@@ -1,0 +1,144 @@
+ .sec-four-wrapper {
+    background-color: black;
+    padding: 30px 45px;
+    position: relative; 
+    margin-bottom: 5px;
+ }
+
+ .sec-four-contents {
+     padding: 20px 50px 100px 0px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+
+ .sec-four-left {
+     width: 50%;
+     margin: 0px 20px;
+ }
+
+ .sec-four-left h1 {
+     font-size: 40px;
+     margin: 0;
+ }
+
+ /* .sec-four-left h2 {
+    
+ } */
+
+ .sec-four-right-video {
+     position: relative;
+     /* width: 40%; */
+ }
+
+ .sec-four-right-video video   {
+    width: 280px;
+    height: 180px;
+ }
+
+ .sec-four-video-div img {
+    width: 430px;
+    height: 300px;
+ }
+
+ .sec-four-video-div {
+     position: absolute;
+     top: -4px;
+     left: -72px;
+ }
+
+ @media (max-width: 950px) {
+    .sec-four-contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px 30px 20px;
+    }
+
+    .sec-four-left {
+        width: 100%;
+        margin: 0px 0px  20px 0px;
+    }
+   
+    .sec-four-left h1 {
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+    }
+   
+    .sec-four-left h2 {
+       text-align: center;
+    }
+
+    
+ .sec-four-right-video {
+    position: relative;
+    /* width: 40%; */
+}
+
+.sec-four-right-video video   {
+   width: 400px;
+   height: 250px;
+}
+
+.sec-four-video-div img {
+   width: 645px;
+   height: 350px;
+}
+
+.sec-four-video-div {
+    position: absolute;
+    top: -9px;
+    left: -124px;
+}
+ }
+
+ 
+ @media (max-width: 750px) {
+    .sec-four-contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px 30px 25px;
+    }
+
+    .sec-four-left {
+        width: 100%;
+        margin: 0px 0px  20px 0px;
+    }
+   
+    .sec-four-left h1 {
+        font-size: 35px;
+        margin: 0;
+        text-align: center;
+    }
+   
+    .sec-four-left h2 {
+       text-align: center;
+       font-size: 22px;
+    }
+
+    
+ .sec-four-right-video {
+    position: relative;
+    /* width: 40%; */
+}
+
+.sec-four-right-video video   {
+   width: 315px;
+   height: 159px;
+}
+
+.sec-four-video-div img {
+   width: 473px;
+   height: 343px;
+}
+
+.sec-four-video-div {
+    position: absolute;
+    top: -24px;
+    left: -76px;
+}
+ }
