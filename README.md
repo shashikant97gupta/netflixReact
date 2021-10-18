@@ -1,4 +1,7 @@
+### This Project is build using Technologies :-  HTML, CSS, JS, ReactJS, Font Awesome Icons and Netflix images and video assests.
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
